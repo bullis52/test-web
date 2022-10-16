@@ -1,0 +1,35 @@
+.header{
+  background: #fff;
+  &__wrap{
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 101px;
+  }
+  &__logo-wrap{
+    display: flex;
+    align-items: center;
+  }
+  &__title{
+    font-size: 16px;
+  }
+  &__wrap-button{
+    font-size: 24px;
+  }
+  &__button{
+    height: 34px;
+    width: 100px;
+    background: #F4E041;
+    border-radius: 80px;
+    border: none;
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+    &:hover{
+      background: #FFE302;
+    }
+  }
+}

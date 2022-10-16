@@ -1,0 +1,39 @@
+.card{
+  width: 370px;
+  background: white;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  &__photo-wrap{
+    width: 70px;
+    height: 70px;
+  }
+  &__photo{
+    border-radius: 50%;
+  }
+  &__details-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__name{
+    margin: 20px 0 20px 0;
+    max-width: 300px;
+    text-align: center;
+  }
+  &__email{
+    margin: 5px 0 5px 0;
+    max-width: 200px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card{
+    margin: 10px 5px;
+  }
+}

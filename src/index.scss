@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito'), url('assets/fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: Nunito, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
