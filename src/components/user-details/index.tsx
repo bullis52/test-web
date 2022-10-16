@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './style.scss';
-import {getUsers} from "../../services/axios";
 
 interface Props {
     data: any;

@@ -7,7 +7,7 @@ function Header() {
         <header className="header">
             <div className='header__wrap'>
                 <div className='header__logo-wrap'>
-                    <img className='header__logo' src={headerCat}/>
+                    <img className='header__logo' src={headerCat} alt={'logo'}/>
                     <div className='header__title'>TESTTASK</div>
                 </div>
                 <div className='header__wrap-button'>

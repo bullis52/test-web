@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './style.scss';
-import {getToken, getUsers, postUser} from "../../services/axios";
-import UserDetails from "../user-details";
-import {Field, Form, Formik, FormikHelpers} from "formik";
+import {getToken, postUser} from "../../services/axios";
+import {Field, Form, Formik} from "formik";
 interface Values {
     yourName: string;
     email: string;
